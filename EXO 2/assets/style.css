@@ -1,0 +1,52 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width:100%;
+    font-size:2.5em;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+h2 {
+    color: deepskyblue;
+    text-align: center;
+    margin-top: 1rem;
+    text-decoration: chartreuse underline;
+}
+
+.green {
+    color: chartreuse;
+}
+
+/* Li impairs*/
+li:nth-child(2n+1){
+    margin: 2rem;
+}
+/* Width img*/
+img {
+    width: 65% ;
+}
+
+a {
+  color: deepskyblue;
+  text-decoration-line: none;
+}
+
+/* Animation a*/
+a:hover {
+    color: deeppink;
+}
