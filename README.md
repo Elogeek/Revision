@@ -7,3 +7,15 @@ EXO 1:
 2 - Définir l'image à 150px de hauteur et 100 px de largeur
 3 - Faire pointer le lien vers un site au choix
 4 - Créer plusieurs pages ( au moins 3) avec du contenu
+
+EXO 2 :
+1 - Réalise une liste non-ordonnée ( type liste de courses, ne pas oublier la navigation par tabulation )
+2 - créez une liste ordonnée qui contient au moins 7 entrées
+
+Pour chaque entrée paire, créez un lien qui mène vers la page wikipedia de votre élément ( de votre texte ),
+ les liens doivent s'ouvrirent dans un nouvel onglet de votre navigateur
+ 
+Pour chaque entrée impaire, remplacer le texte par une image (les attributs)
+
+3 - Réalise une liste imbriquées au choix (min 10)
+4 - Commenter le code in English
