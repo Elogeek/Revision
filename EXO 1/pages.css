@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-flow: column;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+a {
+    text-decoration-line: none;
+    color: orange;
+}
+
+a:hover {
+    color: deeppink;
+}

@@ -1,0 +1,61 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width:100%;
+    font-family: cursive;
+    font-size:2.5em;
+}
+
+.container {
+    display: flex;
+    padding: 3rem;
+    margin: 3rem;
+}
+
+.container div {
+    width: 100%;
+}
+
+/* Position img */
+img {
+float: left;
+
+}
+
+.zoom img {
+    width:200px;
+    height:267px;
+}
+
+.zoom img:hover {
+    width:300px;
+    height:400px;
+}
+
+.links {
+    display: flex;
+    flex-flow: column;
+    height: 16rem;
+    letter-spacing: 2px;
+    align-content: flex-start;
+    position: absolute;
+    top: 39rem;
+    left: 6rem;
+}
+
+a {
+    text-decoration-line: none;
+    color: orange;
+}
+
+a:hover {
+    color: deeppink;
+}
