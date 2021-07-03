@@ -24,3 +24,12 @@ EXO 3:
     naissance,le sexe,url github, un bouton d'envoi du formulaire,...)
 2 - Le nom, le prénom le mail et le mot de passe doivent obligatoirement être remplis.
 3 - Envoyez vous le formulaire par mail lors du click sur le bouton d'envoi.
+
+EXO 4:
+Créer un carte de visite
+
+EXO 5:
+Créer un C.V.
+
+EXO 6:
+Tableaux 
