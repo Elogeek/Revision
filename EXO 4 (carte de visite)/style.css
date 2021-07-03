@@ -1,0 +1,31 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width:100%;
+    font-size: 2rem;
+}
+
+.container {
+    display: flex;
+    margin: 2rem;
+}
+
+img {
+    width: 10%;
+}
+.rectangle {
+    width: 15%;
+    height: 16vh;
+    background-color: #ff867d;
+    color: white;
+
+}
+color: #fca39b;
