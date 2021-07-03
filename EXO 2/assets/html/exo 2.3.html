@@ -2,9 +2,50 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="../style.css">
     <title>Title</title>
 </head>
 <body>
+<div class="superContainer">
+    <h2>Ma liste imbriquée</h2>
+    <ol style="list-style-type: lower-alpha">
+        <li>ce que j'aime
+            <ul>
+                <li>le Japon</li>
+                <li>les mangas</li>
+                <li>le design</li>
+                <li>apprendre la langue japonaise</li>
+                <li>le développement</li>
+                <li>les promenades dans la nature</li>
+                <li>la musique</li>
+                <li>les voyages</li>
+            </ul>
+        </li>
+        <li>ce que je déteste
+            <ul style="list-style-type: upper-roman">
+                <li>l'irrespect envers d'autres personnes</li>
+                <li>le mensonge envers d'autres personnes</li>
+                <li>l'impolitesse envers d'autres personnes</li>
+            </ul>
+        </li>
+    </ol>
 
+    <!--Bonus reverse order of list-->
+    <h2>Ma liste avec l'ordre inversé</h2>
+    <ol reversed style="list-style-type: upper-roman">
+        <li>mangas</li>
+        <li>voyages</li>
+        <li>design</li>
+        <li>la musique</li>
+    </ol>
+
+    <!--Bonus two-->
+    <h2>ma liste de définition</h2>
+    <dl>
+        <dt>Design</dt>
+        <dd> Discipline qui cherche à créer des nouveaux objets (ou environnements), qui soient à la fois esthétiques et adaptés à leurs fonctions. </dd>
+    </dl>
+
+</div>
 </body>
 </html>
