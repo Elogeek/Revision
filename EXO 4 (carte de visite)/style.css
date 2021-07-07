@@ -18,14 +18,35 @@ body {
     margin: 2rem;
 }
 
+/* Avatar*/
 img {
     width: 10%;
 }
+
+/* text business card*/
 .rectangle {
-    width: 15%;
-    height: 16vh;
+    width: 18%;
     background-color: #ff867d;
     color: white;
-
+    padding: 1rem;
 }
-color: #fca39b;
+
+/* Margin div between them */
+.rectangle div {
+    margin-top: 3px;
+}
+
+a {
+    text-decoration-line: none;
+    color: white;
+}
+
+.corail {
+    color: #fca39b;
+    font-size: 20px;
+}
+
+.corail:hover {
+    color: white;
+    font-size: 20px;
+}
