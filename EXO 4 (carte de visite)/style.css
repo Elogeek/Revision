@@ -26,7 +26,8 @@ img {
 /* text business card*/
 .rectangle {
     width: 18%;
-    background-color: #ff867d;
+    background: rgb(255,134,125);
+    background: linear-gradient(293deg, rgba(255,134,125,1) 0%, rgba(252,163,155,1) 35%, rgba(255,255,255,1) 100%);
     color: white;
     padding: 1rem;
 }
@@ -34,19 +35,20 @@ img {
 /* Margin div between them */
 .rectangle div {
     margin-top: 3px;
+    color: #fca39b;
+}
+
+.rectangle div:hover, .rectangle a:hover, .corail:hover {
+    color: #ff867d;
+    font-size: 22px;
+    font-weight: bold;
 }
 
 a {
     text-decoration-line: none;
-    color: white;
+    color: #fca39b;
 }
 
 .corail {
-    color: #fca39b;
-    font-size: 20px;
-}
-
-.corail:hover {
-    color: white;
     font-size: 20px;
 }
