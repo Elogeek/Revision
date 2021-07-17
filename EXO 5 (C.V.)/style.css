@@ -22,7 +22,7 @@ body {
     flex-flow: row;
     width: 100%;
     height: 22rem;
-    background-color:turquoise;
+    background-color:#555555;
 }
 
 /* Name, pseudo,...*/
@@ -45,9 +45,14 @@ body {
     flex-direction: column;
     width: 39rem;
     position: absolute;
-    background-color: orange;
+    background-color:rgb(244, 211, 204);
     margin: 3rem;
     height: 87vh;
+    padding: 2rem;
+}
+
+.rectangle2 h2, .rectangle2 hr {
+    margin: 1rem;
 }
 
 .rectangle2 img {
@@ -71,7 +76,7 @@ body {
 }
 
 .left h2 {
-    background-color: orange;
+    background-color:rgb(244, 211, 204);
     width: 32%;
     padding: 1rem;
     margin: 2rem;
