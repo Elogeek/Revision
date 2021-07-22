@@ -27,19 +27,23 @@ body {
 
 /* Name, pseudo,...*/
 .textRect {
-    font-weight: 700;
+    font-weight: bold;
     font-style: normal;
     color: rgb(244, 211, 204);
     text-decoration: none;
     display: flex;
     flex-direction: column;
     text-align: left;
-    align-items: end;
     width: 72%;
     margin: 2rem;
     line-height: 1.4;
+    position: absolute;
+    left: 49rem;
+    font-size: xx-large;
+    padding: 2%;
 }
 
+/* Rectangle2 with img*/
 .rectangle2 {
     display: flex;
     flex-direction: column;
@@ -47,7 +51,7 @@ body {
     position: absolute;
     background-color:rgb(244, 211, 204);
     margin: 3rem;
-    height: 87vh;
+    height: 103vh;
     padding: 2rem;
 }
 
@@ -55,10 +59,14 @@ body {
     margin: 1rem;
 }
 
+.rectangle2 li {
+    margin: 2%;
+    padding: 2%;
+}
+
 .rectangle2 img {
-    width: 85%;
+    width: 80%;
     margin: 2rem;
-    height: 27rem;
     padding: 2rem;
 }
 
@@ -81,4 +89,16 @@ body {
     padding: 1rem;
     margin: 2rem;
     text-align: center;
+    color: #555555;
+}
+
+/* Li class none*/
+.none {
+    list-style: none;
+    padding: 2%;
+    color: black;
+}
+
+.none a {
+    color: black;
 }
