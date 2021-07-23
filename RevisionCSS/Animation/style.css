@@ -1,0 +1,29 @@
+#go {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation-iteration-count: infinite;
+    animation-name: change;
+    animation-duration: 3s;
+    animation-fill-mode: none;
+}
+
+@keyframes change {
+    0% {
+        background-color: #ff5646;
+    }
+    20% {
+        background : turquoise;
+        width: 550px;
+        height: 550px;
+    }
+    30% {
+        background-color: #555555;
+    }
+    50% {
+        background-color: chartreuse;
+    }
+    100% {
+        background-color:purple;
+    }
+}
