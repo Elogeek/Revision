@@ -39,6 +39,7 @@
     animation-duration: 10s;
 }
 
+/* Animation moving the car */
 @keyframes animateCar {
     0% {
         left: 30px;
@@ -58,6 +59,7 @@
     }
 }
 
+/* Spin the wheels animation */
 @keyframes spinningWheel {
     0% {
         transform: rotate(0deg);
@@ -86,7 +88,9 @@
     height: 300px;
 }
 
-#n1 {
+/* Desing cloud */
+
+#cloud1 {
     top: 0;
     left: 20px;
     position: absolute;
@@ -96,7 +100,7 @@
     height: 50px;
 }
 
-#n2 {
+#cloud2 {
     top: 25px;
     left: 0;
     border-radius: 100%;
@@ -106,7 +110,7 @@
     height: 50px;
 }
 
-#n3 {
+#cloud3 {
     top: 25px;
     left: 50px;
     border-radius: 100%;
@@ -116,7 +120,7 @@
     height: 50px;
 }
 
-#n4 {
+#cloud4 {
     top: 50px;
     left:30px;
     border-radius: 100%;
