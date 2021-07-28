@@ -1,0 +1,87 @@
+
+#sky {
+    background-color: turquoise;
+    height: 20rem;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#ground {
+    background-color: saddlebrown;
+    height: 22rem;
+    width: 100%;
+    position: absolute;
+    top: 43rem;
+    left: 0;
+    right: 0;
+}
+#batis {
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    background-color: chartreuse;
+    width: 250px;
+    height:500px;
+}
+
+#axe {
+    background-color: #555555;
+    position: relative;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    left:75px;
+    top: 100px;
+}
+
+#palmeG {
+    position: relative;
+    background-color: #555555;
+    width: 400px;
+    height: 20px;
+    top: 40px;
+    left: -70px;
+}
+
+#palmeH {
+    position: relative;
+    background-color: #555555;
+    width: 20px;
+    height: 400px;
+    top: -175px;
+    left: 117px;
+}
+
+#helice {
+    position: relative;
+    animation-name: rotHelice;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    -moz-animation-fill-mode: none;
+    transform-origin: 125px 150px;
+}
+
+@keyframes rotHelice {
+    0% {
+
+        transform: rotate(30deg);
+    }
+    25% {
+
+        transform: rotate(60deg);
+    }
+    50% {
+
+        transform: rotate(90deg);
+    }
+    75% {
+
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
