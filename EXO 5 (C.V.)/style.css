@@ -34,24 +34,23 @@ body {
     display: flex;
     flex-direction: column;
     text-align: left;
-    width: 72%;
     margin: 2rem;
     line-height: 1.4;
     position: absolute;
-    left: 49rem;
+    left: 47rem;
     font-size: xx-large;
-    padding: 2%;
+    padding: 2rem;
 }
 
 /* Rectangle2 with img*/
 .rectangle2 {
     display: flex;
     flex-direction: column;
-    width: 39rem;
+    width: 34rem;
     position: absolute;
     background-color:rgb(244, 211, 204);
     margin: 3rem;
-    height: 103vh;
+    height: 99vh;
     padding: 2rem;
 }
 
@@ -65,7 +64,7 @@ body {
 }
 
 .rectangle2 img {
-    width: 80%;
+    width: 26rem;
     margin: 2rem;
     padding: 2rem;
 }
@@ -75,8 +74,8 @@ body {
     display: flex;
     flex-direction: column;
     margin-left: 48rem;
-    margin-top: 4rem;
-    padding: 4rem;
+    margin-top: 0;
+    padding: 1rem;
 }
 
 .left li {
@@ -85,7 +84,7 @@ body {
 
 .left h2 {
     background-color:rgb(244, 211, 204);
-    width: 32%;
+    width: 19rem;
     padding: 1rem;
     margin: 2rem;
     text-align: center;
@@ -101,4 +100,66 @@ body {
 
 .none a {
     color: black;
+}
+
+.left strong, .left a {
+    color: #555555;
+    font-weight: bold;
+}
+
+.left a {
+    text-decoration-line: none;
+}
+
+/**
+ * Responsive mode.
+ */
+@media screen and (max-width: 1160px) {
+
+    h2, .textRect p {
+        font-size: 2rem;
+    }
+
+    .textRect {
+        left: 42rem;
+        line-height: 1.8;
+    }
+
+    .left {
+        margin-top: 1rem;
+        margin-left: 40rem;
+    }
+
+    .left h2 {
+        width: 22rem;
+    }
+
+    .rectangle2 {
+        height: 170vh;
+        width: 34rem;
+    }
+}
+
+@media screen and (max-width: 850px) {
+
+    .textRect {
+        left: 35rem;
+    }
+
+    .left {
+        margin-left: 35rem;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 862px) {
+
+    .left {
+       margin-left: 1rem;
+        margin-top: 60rem;
+    }
+    .rectangle {
+        height: 23rem;
+    }
+
 }
