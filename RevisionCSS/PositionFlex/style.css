@@ -48,6 +48,7 @@
 div {
     text-align: center;
     color: white;
+    font-size: xxx-large;
 }
 
 /* Design exo 1.2 */
@@ -58,10 +59,6 @@ div {
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-}
-
-div {
-    text-align: center;
 }
 
 #div1,#div2,#div3,#div4,#div5,#div6,#div7,#div8 {
@@ -98,4 +95,59 @@ div {
 
 #div8 {
     background-color: coral;
+}
+
+/* Desing exo 1.3 */
+.container {
+    border:5px solid black;
+    width: 45rem;
+    height: 45rem;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* Centrer les blocks */
+#container-flex {
+    align-items: center;
+}
+
+#divOne,#divTwo,#divThree,#divFour,#divFive,#divSix,#divSeven,#divEight {
+    width: 10rem;
+    height: 20rem;
+}
+
+#divOne {
+    background-color: #d299c2;
+}
+
+#divTwo {
+
+    background-color: #001c40;
+}
+
+#divThree {
+    background-color: deeppink;
+}
+
+#divFour {
+    background-color: turquoise;
+}
+
+#divFive {
+    background-color: #ff5646;
+}
+
+#divSix {
+    background-color: #555555;
+}
+
+#divSeven {
+    background-color: chartreuse;
+}
+
+#divEight{
+    background-color: cornflowerblue;
 }
