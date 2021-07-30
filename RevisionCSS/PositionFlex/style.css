@@ -1,3 +1,4 @@
+/* Design exo 1.1 */
 .containerFlex {
     border:5px solid black;
     width: 80rem;
@@ -47,4 +48,54 @@
 div {
     text-align: center;
     color: white;
+}
+
+/* Design exo 1.2 */
+.container-flex {
+    border:5px solid black;
+    width: 80rem;
+    height: 80rem;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+div {
+    text-align: center;
+}
+
+#div1,#div2,#div3,#div4,#div5,#div6,#div7,#div8 {
+    width: 20rem;
+}
+
+#div1 {
+    background-color: cornflowerblue;
+}
+
+#div2 {
+    background-color: #001c40;
+}
+
+#div3 {
+    background-color: chartreuse;
+}
+
+#div4 {
+    background-color: #d299c2;
+}
+
+#div5 {
+    background-color: turquoise;
+}
+
+#div6 {
+    background-color: deeppink;
+}
+
+#div7 {
+    background-color: orangered;
+}
+
+#div8 {
+    background-color: coral;
 }
