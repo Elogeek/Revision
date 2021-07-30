@@ -1,0 +1,50 @@
+.containerFlex {
+    border:5px solid black;
+    width: 80rem;
+    height: 80rem;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#one,#two,#three,#four,#five,#six,#seven,#eight {
+    width: 10rem;
+}
+
+#one {
+    background-color: #d299c2;
+}
+
+#two {
+
+    background-color: #001c40;
+}
+
+#three {
+    background-color: deeppink;
+}
+
+#four {
+    background-color: turquoise;
+}
+
+#five {
+    background-color: #ff5646;
+}
+
+#six {
+    background-color: #555555;
+}
+
+#seven {
+    background-color: chartreuse;
+}
+
+#eight {
+    background-color: cornflowerblue;
+}
+
+div {
+    text-align: center;
+    color: white;
+}
