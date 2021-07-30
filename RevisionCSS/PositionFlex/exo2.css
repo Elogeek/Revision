@@ -1,0 +1,27 @@
+/* Desing exo 2.1 */
+.containerFlex {
+    border:5px solid black;
+    width: 45rem;
+    height: 45rem;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* Center the blocks */
+.containerFlex {
+    align-items: center;
+}
+
+#div1,#div2,#div3,#div4,#div6,#div7,#div8 {
+    width: 10rem;
+    height: 10rem;
+}
+
+div {
+    text-align: center;
+    color: white;
+    font-size: xxx-large;
+}
