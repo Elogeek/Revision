@@ -1,8 +1,8 @@
 /* Desing exo 2.1 */
 .containerFlex {
     border:5px solid black;
-    width: 45rem;
-    height: 45rem;
+    width: 51rem;
+    height: 48rem;
     display: flex;
     flex-direction: row;
     align-content: space-around;
@@ -13,11 +13,46 @@
 /* Center the blocks */
 .containerFlex {
     align-items: center;
+    padding: 0.5rem;
 }
 
 #div1,#div2,#div3,#div4,#div6,#div7,#div8 {
     width: 10rem;
     height: 10rem;
+}
+
+#div1 {
+    background-color: #001c40;
+}
+
+#div2 {
+    background-color: aqua;
+}
+
+#div3 {
+    background-color: chartreuse;
+}
+
+#div4 {
+    background-color: #d299c2;
+}
+
+#div5 {
+    height: 10rem;
+    width: 51rem;
+    background-color: coral;
+}
+
+#div6 {
+    background-color: greenyellow;
+}
+
+#div7 {
+    background-color: purple;
+}
+
+#div8 {
+    background-color: deeppink;
 }
 
 div {
