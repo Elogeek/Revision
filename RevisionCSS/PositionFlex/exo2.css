@@ -16,7 +16,7 @@
     padding: 0.5rem;
 }
 
-#div1,#div2,#div3,#div4,#div6,#div7,#div8 {
+#div1,#div2,#div3,#div4,#div6,#div7,#div8,#div9 {
     width: 10rem;
     height: 10rem;
 }
@@ -54,9 +54,60 @@
 #div8 {
     background-color: deeppink;
 }
+#div9 {
+    background-color: peachpuff;
+}
 
 div {
     text-align: center;
     color: white;
     font-size: xxx-large;
+}
+
+/* Design exercice 2.2 */
+
+/* Responsive mode */
+@media screen and (max-width: 1024px) {
+    .containerFlex {
+        width: 100%;
+        height: 150vh;
+    }
+
+    #div1 {
+        background-color: #001c40;
+    }
+
+    #div2 {
+        background-color: aqua;
+    }
+
+    #div3 {
+        background-color: chartreuse;
+    }
+
+    #div4 {
+        background-color: #d299c2;
+    }
+
+    #div5 {
+        height: 20rem;
+        width: 43rem;
+        background-color: coral;
+    }
+
+    #div6 {
+        background-color: greenyellow;
+    }
+
+    #div7 {
+        background-color: purple;
+    }
+
+    #div8 {
+        background-color: deeppink;
+    }
+
+    #div9 {
+        background-color: deepskyblue;
+    }
 }
