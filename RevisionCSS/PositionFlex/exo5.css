@@ -61,12 +61,3 @@ div {
         height: 6rem;
     }
 }
-
-@media screen and (max-width: 900px) {
-    .container {
-        width: 100%;
-        height: 100vh;
-        display: flex;
-    }
-
-}
