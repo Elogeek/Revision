@@ -47,7 +47,7 @@ div {
     background-color: chartreuse;
 }
 
-@media screen and(max-width: 600px) {
+@media screen and (max-width: 600px) {
 
     #container-flex {
         width: 100%;
@@ -61,6 +61,19 @@ div {
 
 /* Exo 3 display 2 blocks */
 
-@media screen and(max-width: 400px) {
-    
+@media screen and (max-width: 400px) {
+    #container-flex {
+        width: 40rem;
+        height: 40rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #container-flex {
+        justify-content: space-evenly;
+    }
+
+    #div3,#div4,#div5 {
+        display: none;
+    }
 }
