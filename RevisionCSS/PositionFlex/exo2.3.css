@@ -58,3 +58,9 @@ div {
         display:block;
     }
 }
+
+/* Exo 3 display 2 blocks */
+
+@media screen and(max-width: 400px) {
+    
+}

@@ -67,7 +67,7 @@ div {
 /*Exercice 2.2 */
 
 /* Responsive mode */
-@media screen and (max-width: 1024px) {
+@media screen and(max-width: 1024px) {
     .containerFlex {
         width: 100%;
         height: 150vh;
@@ -101,7 +101,7 @@ div {
 }
 
 /* Exo 2.3 : responsive mode ( display 5 blocks) */
-@media screen and (max-width: 1014px) {
+@media screen and(max-width: 1014px) {
     .containerFlex {
         width: 100%;
         height: 100vh;
