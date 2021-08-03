@@ -1,0 +1,22 @@
+.container {
+    border:5px solid black;
+    width: 42rem;
+    height: 46rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1.25rem;
+}
+
+/*centrer the  blocks*/
+.container {
+    align-items: center;
+    padding: 0.5rem;
+}
+
+div {
+    text-align: center;
+    color: white;
+    font-size: xxx-large;
+}
