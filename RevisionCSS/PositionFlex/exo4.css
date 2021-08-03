@@ -1,0 +1,64 @@
+.container {
+    border:5px solid black;
+    width: 42rem;
+    height: 46rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1.25rem;
+}
+
+/*centrer the  blocks*/
+.container {
+    align-items: center;
+    padding: 0.5rem;
+}
+
+div {
+    text-align: center;
+    color: white;
+    font-size: xxx-large;
+}
+
+#div1,#div2,#div3,#div4,#div5,#div6,#div7,#div8 {
+    width: 10rem;
+    height: 10rem;
+}
+
+#div1 {
+    background-color: purple;
+}
+
+#div2 {
+    background-color: deepskyblue;
+}
+
+#div3 {
+    background-color: chartreuse;
+}
+
+#div4 {
+    background-color:coral;
+}
+
+#div5 {
+    background-color: darkorange;
+}
+
+#div6 {
+    background-color: greenyellow;
+}
+
+#div7 {
+    background-color:palevioletred;
+}
+
+#div8 {
+    background-color: deeppink;
+}
+#div9 {
+    background-color: palegreen;
+    height: 45rem;
+    width:10rem;
+}
