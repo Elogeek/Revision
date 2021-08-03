@@ -3,10 +3,9 @@
     width: 42rem;
     height: 46rem;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: space-around;
-    padding: 1.25rem;
 }
 
 /*centrer the  blocks*/
@@ -19,4 +18,29 @@ div {
     text-align: center;
     color: white;
     font-size: xxx-large;
+}
+
+#div1,#div2,#div3,#div4,#div5 {
+    height: 8rem;
+    width: 12rem;
+}
+
+#div1 {
+    background-color: purple;
+}
+
+#div2 {
+    background-color: deepskyblue;
+}
+
+#div3 {
+    background-color: chartreuse;
+}
+
+#div4 {
+    background-color: deeppink;
+}
+
+#div5 {
+    background-color: palegreen;
 }
