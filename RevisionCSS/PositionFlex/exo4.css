@@ -22,7 +22,7 @@ div {
 }
 
 #div1,#div2,#div3,#div4,#div5,#div6,#div7,#div8 {
-    width: 10rem;
+    width: 12rem;
     height: 10rem;
 }
 
@@ -60,5 +60,5 @@ div {
 #div9 {
     background-color: palegreen;
     height: 45rem;
-    width:10rem;
+    width:12rem;
 }
