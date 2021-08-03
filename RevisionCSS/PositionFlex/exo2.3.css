@@ -22,35 +22,29 @@ div {
     margin-top: 0.5rem;
 }
 
+#div1,#div2,#div3,#div4,#div5 {
+    width: 10rem;
+    height: 10rem;
+}
 
 #div1{
     background-color: darkorange;
-    width: 10rem;
-    height: 10rem;
 }
 
 #div2 {
     background-color: deeppink;
-    width: 10rem;
-    height: 10rem;
 }
 
 #div3 {
     background-color: deepskyblue;
-    width: 10rem;
-    height: 10rem;
 }
 
 #div4 {
     background-color: purple;
-    width: 10rem;
-    height: 10rem;
 }
 
 #div5 {
     background-color: chartreuse;
-    width: 10rem;
-    height: 10rem;
 }
 
 @media screen and(max-width: 600px) {
