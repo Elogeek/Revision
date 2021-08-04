@@ -13,3 +13,64 @@ body {
     font-family: cursive;
     font-size:2.5em;
 }
+
+
+#container {
+    margin: 0 auto;
+    width: 100%;
+    display: inline-block;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    background-color: palevioletred;
+    width: 100%;
+    padding: 20px;
+}
+
+a {
+    color: black;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 1.5rem;
+    text-decoration-line: none;
+    transition: background-color;
+    transition-duration: 5s;
+}
+
+i {
+    color: black;
+}
+
+a:hover {
+    background-color: white;
+}
+
+#nav-home a,#nav-recettes a,#nav-new a,#nav-photo a, #nav-shop a{
+    display: none;
+}
+
+#home:hover a{
+    display:block;
+}
+
+#recettes:hover a {
+    display:block;
+}
+
+#new:hover a {
+    display:block;
+}
+
+#photo:hover a {
+    display:block;
+}
+
+#shop:hover a {
+    display:block;
+}
+
+#contact:hover a{
+    display:block;
+}
