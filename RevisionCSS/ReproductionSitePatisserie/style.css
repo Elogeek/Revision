@@ -10,8 +10,7 @@ html {
 
 body {
     width:100%;
-    font-family: cursive;
-    font-size:2.5em;
+    font-size:1.5em;
 }
 
 
@@ -24,16 +23,16 @@ body {
 .nav {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     background-color: palevioletred;
     width: 100%;
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 a {
     color: black;
     text-transform: uppercase;
     font-size: 20px;
-    letter-spacing: 1.5rem;
     text-decoration-line: none;
     transition: background-color;
     transition-duration: 5s;
@@ -47,30 +46,42 @@ a:hover {
     background-color: white;
 }
 
-#nav-home a,#nav-recettes a,#nav-new a,#nav-photo a, #nav-shop a{
+#nav-home a,#nav-recettes a,#nav-new a, #nav-shop a, #nav-objects a{
     display: none;
 }
 
-#home:hover a{
+#home:hover a {
     display:block;
 }
 
 #recettes:hover a {
     display:block;
+    background-color: #dc494a;
 }
 
 #new:hover a {
     display:block;
+    background-color: #e6fc6c;
 }
 
-#photo:hover a {
+#video:hover a {
     display:block;
+    background-color: orangered;
 }
 
 #shop:hover a {
+    display:block;
+    background-color:#79ceea ;
+}
+
+#objects:hover a {
     display:block;
 }
 
 #contact:hover a{
     display:block;
+}
+
+#logo {
+    width: 12rem;
 }
