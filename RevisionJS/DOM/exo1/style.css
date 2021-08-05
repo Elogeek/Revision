@@ -1,0 +1,29 @@
+body {
+    background-color: #303030;
+    font-size :15px;
+    font-family: cursive,sans-serif;
+}
+
+p {
+    animation-name: colorP;
+    animation-delay: 1s;
+    animation-duration: 10s;
+    animation-fill-mode: none;
+}
+
+@keyframes colorP {
+
+    0% {
+        background-color: deepskyblue;
+    }
+
+    10% {
+        background-color: deeppink;
+    }
+    15% {
+        background-color: darkviolet;
+    }
+    30% {
+        background-color: #e6fc6c;
+    }
+}
