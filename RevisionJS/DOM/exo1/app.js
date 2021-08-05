@@ -34,26 +34,35 @@ element6.style.direction = "right";
 let element7 = document.getElementById("lien1"); {
     console.log("a href = #");
 }
+
 element7.innerText = "ICI!";
+element7.style.cssText = `
+    color:white;
+    font-size:xxx-large;
+`;
 
 let element8 = document.getElementById("lien2"); {
     console.log("a href = #");
 }
+
 element8.innerText = "COUCOU!";
 
 let element9 = document.getElementById("lien3"); {
     console.log("a href = #");
 }
+
 element9.innerText = "GO!";
 
 let element10 = document.getElementById("lien4"); {
     console.log("a hre = #");
 }
+
 element10.innerText = "AH!";
 
 let element11 = document.getElementById("lien5"); {
     console.log("a href = #");
 }
+
 element11.innerText = "ICI!";
 
 /* Delete span */
