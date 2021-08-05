@@ -42,7 +42,7 @@ i {
     color: white;
 }
 
-#nav-home a,#nav-recipes a,#nav-new a, #nav-shop a, #nav- a{
+#nav-home a,#nav-recipes a,#nav-new a, #nav-shop a, #nav-materials a{
     display: none;
 }
 
@@ -70,7 +70,7 @@ i {
     background-color: #f45c6b;
 }
 
-#objects:hover a {
+#materials:hover a {
     display:block;
     background-color:#79ceea ;
 }
