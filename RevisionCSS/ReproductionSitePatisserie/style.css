@@ -78,3 +78,36 @@ i {
 #logo {
     width: 12rem;
 }
+
+@media screen and (max-width: 995px) {
+
+    html {
+        font-size: 1.5rem;
+    }
+
+    .container {
+        margin: 0;
+        width: 100%;
+    }
+    .nav {
+        padding: 0.2rem;
+    }
+    div {
+        padding: 0.2rem;
+    }
+
+    #contact {
+        display: flex;
+        flex-direction: row;
+       justify-content: space-between;
+    }
+
+    #logo {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+
+}
