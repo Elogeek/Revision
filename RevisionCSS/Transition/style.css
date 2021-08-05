@@ -1,0 +1,32 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width:100%;
+    font-size:1.5em;
+}
+
+.container {
+    height: 20rem;
+    width: 20rem;
+}
+
+div {
+    background-color: #d299c2;
+    transition: height,width,background-color;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+}
+
+div:hover {
+    height: 40rem;
+    width: 40rem;
+    background-color: #e6fc6c;
+}
