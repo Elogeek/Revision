@@ -46,7 +46,7 @@ a:hover {
     background-color: white;
 }
 
-#nav-home a,#nav- a,#nav-new a, #nav-shop a, #nav-objects a{
+#nav-home a,#nav-recipes a,#nav-new a, #nav-shop a, #nav-objects a{
     display: none;
 }
 
@@ -54,7 +54,7 @@ a:hover {
     display:block;
 }
 
-#recettes:hover a {
+#recipes:hover a {
     display:block;
     background-color: #dc494a;
 }
@@ -77,11 +77,6 @@ a:hover {
 #objects:hover a {
     display:block;
     background-color:#79ceea ;
-}
-
-#contact:hover a {
-    display:block;
-    background-color: white;
 }
 
 #logo {
