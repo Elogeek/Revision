@@ -42,11 +42,7 @@ i {
     color: white;
 }
 
-a:hover {
-    background-color: white;
-}
-
-#nav-home a,#nav-recipes a,#nav-new a, #nav-shop a, #nav-objects a{
+#nav-home a,#nav-recipes a,#nav-new a, #nav-shop a, #nav- a{
     display: none;
 }
 
