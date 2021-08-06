@@ -1,4 +1,3 @@
-let catPic = document.getElementById("cat-pic");
 let stashePic = document.getElementById("mustache-pic");
 let onCatClick = document.getElementById("cat-pic");
 

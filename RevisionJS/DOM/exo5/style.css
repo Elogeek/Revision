@@ -14,6 +14,6 @@ body {
     font-size: 2rem;
 }
 
-#mustache-pic, #hat-cat {
+#mustache-pic {
     position: absolute;
 }
