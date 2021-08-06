@@ -8,3 +8,5 @@ onCatClick.addEventListener("click", function(e) {
     stashePic.style.left = x + "px";
     stashePic.style.top = y + "px";
 });
+
+
