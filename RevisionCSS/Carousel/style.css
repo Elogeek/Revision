@@ -42,7 +42,7 @@ body {
     height: 70vh;
     min-width: 300px;
     min-height: 300px;
-    background-color: #001c40;
+    background-color: #303030;
     border-radius: 10px;
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
@@ -59,7 +59,7 @@ body {
 }
 
 .gray {
-    background-color: #555555;
+    background-color: #048B9A;
 }
 
 .pink {
@@ -75,7 +75,7 @@ body {
 }
 
 .green {
-   background-color:#ff5646;
+   background-color:#ff8300;
 }
 
 /* links */
@@ -85,10 +85,10 @@ body {
 }
 
 .link-box > a {
-    width: 2rem;
-    height: 2rem;
+    width: 4rem;
+    height: 4rem;
     border-radius: 50%;
-    background-color: #001c40;
+    background-color: #303030;
     color: white;
     margin: 0.5rem;
     font-size: 1.5rem;
@@ -98,7 +98,7 @@ body {
 }
 
 .link-box > a:hover {
-    color: #f88070;
+    color: #ff8300;
 }
 
 .link-box > a:active {
