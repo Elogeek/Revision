@@ -1,0 +1,26 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width:100%;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+}
+
+h1 {
+    color: #dc494a;
+}
+
+button {
+    width: 12rem;
+    margin: 1rem;
+}
