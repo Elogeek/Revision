@@ -3,7 +3,7 @@ let btnClose = document.getElementById('close');
 let newWindow = '';
 
 btnOpen.addEventListener('click',wOpen);
-btnOpen.addEventListener('click', wClose);
+btnClose.addEventListener('click', wClose);
 
 /* Open the window this click */
 function wOpen() {
